@@ -1,4 +1,13 @@
 package me.liuhe92;
 
-public class HttpUtilsApp {
+import android.app.Application;
+
+public class HttpUtilsApp extends Application {
+
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+    }
+
 }
